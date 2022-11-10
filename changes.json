@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 5,
+    "topic": "/subscriptions/8c9d441a-a72d-4ce8-9e8f-7781a1e1a993/resourceGroups/change.feed/providers/Microsoft.Storage/storageAccounts/lugutcf",
+    "subject": "/blobServices/default/containers/changefeedtest/blobs/test.txt",
+    "eventType": "BlobCreated",
+    "eventTime": "2022-11-07T21:28:32.8672212Z",
+    "id": "6ab95315-501e-008c-36ef-f2f85006afd7",
+    "data": {
+        "api": "PutBlob",
+        "clientRequestId": "97af7120-c40b-4f63-b31b-a5c3a36b4044",
+        "requestId": "6ab95315-501e-008c-36ef-f2f850000000",
+        "etag": "0x8DAC1070590ECE5",
+        "contentType": "text/plain",
+        "contentLength": 40,
+        "blobType": "BlockBlob",
+        "blobVersion": null,
+        "containerVersion": "01D8F2EDE7290A44",
+        "blobTier": null,
+        "url": "https://lugutcf.blob.core.windows.net/changefeedtest/test.txt",
+        "sequencer": "000000000000000000000000000078AC000000000000e030",
+        "previousInfo": {
+            "SoftDeleteSnapshot": "2022-11-07T21:28:32.8672212Z"
+        },
+        "snapshot": null,
+        "blobPropertiesUpdated": null,
+        "asyncOperationInfo": null,
+        "blobTagsUpdated": null,
+        "restorePointMarker": null,
+        "storageDiagnostics": {
+            "bid": "128dbb41-c006-0018-00f0-f24f39000000",
+            "sid": "10f7884a-8ad0-d789-ce5f-cbed1997308e",
+            "seq": "(30892,16452,57392,56557)"
+        }
+    }
+}
